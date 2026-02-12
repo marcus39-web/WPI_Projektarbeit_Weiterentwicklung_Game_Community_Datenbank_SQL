@@ -1,0 +1,2 @@
+CREATE TABLE seminare (id INTEGER PRIMARY KEY AUTO_INCREMENT, titel VARCHAR(120), beschreibung TEXT, preis DECIMAL (6,2));
+CREATE TABLE benutzer (id INTEGER PRIMARY KEY AUTO_INCREMENT, vorname VARCHAR(40), name VARCHAR(40), email VARCHAR(50) UNIQUE, passwort VARCHAR(20), registriert_seit DATE);
